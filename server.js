@@ -6,6 +6,6 @@ const port = process.env.PORT || 5000 //pull PORT from dotenv
 
 app.use('/api/contacts')
 
-app.listen(port, () =>{
-    console.log(`server running on ${port}`)
-})
+// app.listen(port, () =>{
+//     console.log(`server running on ${port}`)
+// })
