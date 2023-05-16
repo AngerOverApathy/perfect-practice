@@ -35,6 +35,7 @@ const errorHandler = (err, reg, res, next) => {
                 message: err.message, 
                 stackTrace: err.stack })
         default:
+            console.log('No errors, all good')
             break;
     }
 }
